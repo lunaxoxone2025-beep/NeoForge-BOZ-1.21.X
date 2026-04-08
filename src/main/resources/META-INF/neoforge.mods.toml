@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="MIT"
+
+[[mods]]
+modId="blackopsz"
+version="0.0.1"
+displayName="Black Ops Z"
+authors="Crazhfty"
+description='''
+Hi, this is a Minecraft mod based on Black Ops Zombies!
+'''
+
+[[dependencies.blackopsz]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.blackopsz]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

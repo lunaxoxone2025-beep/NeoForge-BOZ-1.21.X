@@ -1,4 +1,4 @@
-package net.crazhfty.boz;
+package net.crazhfty.blackopsz;
 
 import java.util.List;
 

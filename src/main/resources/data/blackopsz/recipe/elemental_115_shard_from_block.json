@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "blackopsz:elemental_115_block" }
+  ],
+  "result": {
+    "count": 9,
+    "id": "blackopsz:elemental_115_shard"
+  }
+}

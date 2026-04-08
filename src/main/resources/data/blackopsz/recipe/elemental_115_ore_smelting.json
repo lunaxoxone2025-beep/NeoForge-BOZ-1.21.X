@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "blackopsz:elemental_115_ore"
+  },
+  "result": {
+    "id": "blackopsz:elemental_115_gem"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

@@ -1,6 +1,9 @@
 {
+  "replace": false,
   "values": [
     "blackopsz:elemental_115_ore",
-    "blackopsz:elemental_115_block"
+    "blackopsz:elemental_115_block",
+    "blackopsz:aether_crystal_ore",
+    "blackopsz:aether_crystal_block"
   ]
 }

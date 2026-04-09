@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "blackopsz:aether_crystal_block",
     "blackopsz:aether_crystal_ore",

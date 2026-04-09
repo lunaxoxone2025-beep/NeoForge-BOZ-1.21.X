@@ -10,6 +10,6 @@
   "block.blackopsz.elemental_115_ore": "Elemental 115 Ore",
   "block.blackopsz.elemental_115_block": "Elemental 115 Block",
 
-  "creativetab.blackopsz.aether_items": "Aether Items",
-  "creativetab.blackopsz.aether_blocks": "Aether Blocks"
+  "itemGroup.blackopsz.aether_items": "Aether Items",
+  "itemGroup.blackopsz.aether_blocks": "Aether Blocks"
 }

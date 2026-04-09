@@ -21,6 +21,9 @@ public class ModItems {
     public static final DeferredItem<Item> ELEMENTAL_115_SHARD = ITEMS.register("elemental_115_shard",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> ELEMENTAL_SHARD = ITEMS.register("elemental_shard",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> AETHER_REFINER = ITEMS.register("aether_refiner",
             () -> new RefinerItem(new Item.Properties()
                     .stacksTo(1)

@@ -2,11 +2,15 @@ package net.crazhfty.blackopsz.block;
 
 import net.crazhfty.blackopsz.BlackOpsZ;
 import net.crazhfty.blackopsz.item.ModItems;
+import net.minecraft.util.valueproviders.ConstantInt;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -24,14 +28,22 @@ public class ModBlocks {
                     .sound(SoundType.AMETHYST)));
 
     public static final DeferredBlock<Block> AETHER_CRYSTAL_ORE = registerBlock("aether_crystal_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3.0f)
-                    .sound(SoundType.STONE)));
+            () -> new DropExperienceBlock(
+                    ConstantInt.of(3),
+                    BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_PURPLE) // Color en el mapa
+                            .strength(3.0f, 3.0f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> ELEMENTAL_115_ORE = registerBlock("elemental_115_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3.0f)
-                    .sound(SoundType.DEEPSLATE)));
+            () -> new DropExperienceBlock(
+                    UniformInt.of(3, 7),
+                    BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_PURPLE)
+                            .strength(4.5f, 3.0f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.DEEPSLATE)));
 
     public static final DeferredBlock<Block> ELEMENTAL_115_BLOCK = registerBlock("elemental_115_block",
             () -> new Block(BlockBehaviour.Properties.of()

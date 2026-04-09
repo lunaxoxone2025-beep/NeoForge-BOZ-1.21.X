@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "category": "misc",
   "ingredient": { "item": "blackopsz:aether_crystal" },
-  "result": { "id": "blackopsz:aether_gem" },
+  "result": { "id": "blackopsz:aether_raw" },
   "experience": 0.7,
   "cookingtime": 100
 }

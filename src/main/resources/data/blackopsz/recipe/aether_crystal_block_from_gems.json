@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "G": { "item": "blackopsz:aether_gem" }
+    "G": { "item": "blackopsz:aether_raw" }
   },
   "pattern": [
     "GGG",

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "blackopsz:elemental_115_shard"
+    }
+  },
+  "result": {
+    "id": "blackopsz:elemental_115_raw",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I1I",
+    "IRI",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "1": { "item": "blackopsz:elemental_115_shard" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": {
+    "id": "blackopsz:aether_refiner",
+    "count": 1
+  }
+}

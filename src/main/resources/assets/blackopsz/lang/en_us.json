@@ -1,6 +1,9 @@
 {
-  "item.blackopsz.aether_raw": "Aether Raw",
+  "item.blackopsz.aether_refiner": "Aether Refiner",
+  "item.blackopsz.aether_raw": "Raw Aether",
   "item.blackopsz.aether_gem": "Aether Gem",
+  "item.blackopsz.elemental_115_raw": "Raw Elemental 115",
+  "item.blackopsz.elemental_115_shard": "115 Shard",
 
   "block.blackopsz.aether_crystal_block": "Aether Crystal Block",
   "block.blackopsz.aether_crystal_ore": "Aether Crystal Ore",

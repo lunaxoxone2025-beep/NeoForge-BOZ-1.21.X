@@ -6,8 +6,11 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+
 public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems("blackopsz");
+
+    public static final DeferredRegister.Items ITEMS =
+            DeferredRegister.createItems("blackopsz");
 
     public static final DeferredItem<Item> AETHER_RAW = ITEMS.register("aether_raw",
             () -> new Item(new Item.Properties()));
@@ -29,6 +32,10 @@ public class ModItems {
                     .stacksTo(1)
                     .durability(16)));
 
+    // 🟣 WIDOW'S WINE (PERK ITEM)
+    public static final DeferredItem<Item> WIDOWS_WINE_AMULET = ITEMS.register("widows_wine_amulet",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
@@ -47,6 +54,7 @@ public class ModItems {
         public ItemStack getCraftingRemainingItem(ItemStack itemStack) {
             ItemStack copy = itemStack.copy();
             copy.setDamageValue(itemStack.getDamageValue() + 1);
+
             if (copy.getDamageValue() >= copy.getMaxDamage()) {
                 return ItemStack.EMPTY;
             }

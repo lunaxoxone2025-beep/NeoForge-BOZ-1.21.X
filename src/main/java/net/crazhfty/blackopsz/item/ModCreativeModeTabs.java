@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELEMENTAL_115_RAW.get());
                         output.accept(ModItems.ELEMENTAL_115_SHARD.get());
                         output.accept(ModItems.AETHER_REFINER.get());
+                        // 🟣 PERK ITEM
+                        output.accept(ModItems.WIDOWS_WINE_AMULET.get());
                     }).build());
 
     // Blocks Tab
@@ -32,7 +34,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.AETHER_CRYSTAL_BLOCK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath("blackopsz", "aether_items_tab"))
-                    .title(Component.translatable("itemGroup.blackopsz.aether_blocks")) // Cambiado de creativetab a itemGroup
+                    .title(Component.translatable("itemGroup.blackopsz.aether_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.AETHER_CRYSTAL_BLOCK.get());
                         output.accept(ModBlocks.AETHER_CRYSTAL_ORE.get());

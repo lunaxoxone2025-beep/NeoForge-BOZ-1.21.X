@@ -24,11 +24,13 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
+import net.crazhfty.blackopsz.events.PlayerEvents;
 
 @Mod("blackopsz")
 public class BlackOpsZ {
     public static final String MOD_ID = "blackopsz";
     public static final Logger LOGGER = LogUtils.getLogger();
+
 
     public BlackOpsZ(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
@@ -38,6 +40,7 @@ public class BlackOpsZ {
         ModBlocks.register(modEventBus);
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(Type.COMMON, Config.SPEC);
+        NeoForge.EVENT_BUS.register(PlayerEvents.class);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

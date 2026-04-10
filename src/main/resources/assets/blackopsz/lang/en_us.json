@@ -11,5 +11,8 @@
   "block.blackopsz.elemental_115_block": "Elemental 115 Block",
 
   "itemGroup.blackopsz.aether_items": "Aether Items",
-  "itemGroup.blackopsz.aether_blocks": "Aether Blocks"
+  "itemGroup.blackopsz.aether_blocks": "Aether Blocks",
+
+
+  "item.blackopsz.widows_wine_amulet": "Widow Wine Amulet"
 }

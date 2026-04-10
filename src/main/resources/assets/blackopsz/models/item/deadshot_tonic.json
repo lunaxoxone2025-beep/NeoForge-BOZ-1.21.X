@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "blackopsz:item/elemental_115_shard"
+  }
+}

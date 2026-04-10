@@ -31,7 +31,7 @@ public class ModBlocks {
             () -> new DropExperienceBlock(
                     ConstantInt.of(3),
                     BlockBehaviour.Properties.of()
-                            .mapColor(MapColor.COLOR_PURPLE) // Color en el mapa
+                            .mapColor(MapColor.COLOR_PURPLE) // Map color
                             .strength(3.0f, 3.0f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)));

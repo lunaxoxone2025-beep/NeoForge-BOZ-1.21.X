@@ -11,5 +11,56 @@
   "block.blackopsz.elemental_115_block": "Elemental 115 Block",
 
   "itemGroup.blackopsz.aether_items": "Aether Items",
-  "itemGroup.blackopsz.aether_blocks": "Aether Blocks"
+  "itemGroup.blackopsz.aether_blocks": "Aether Blocks",
+
+
+  "item.blackopsz.widows_wine_amulet": "Widow Wine Amulet",
+  "item.blackopsz.juggernog_tonic": "Jugger-Nog Tonic",
+  "item.blackopsz.stamin_up_tonic": "Stamin-Up Tonic",
+  "item.blackopsz.speed_cola_tonic": "Speed Cola Tonic",
+  "item.blackopsz.double_tap_tonic": "Double Tap Tonic",
+  "item.blackopsz.quick_revive_tonic": "Quick Revive Tonic",
+  "item.blackopsz.deadshot_tonic": "Deadshot Daiquiri Tonic",
+  "item.blackopsz.phd_flopper_tonic": "PhD Flopper Tonic",
+
+  "menu.blackopsz.perk_loadout": "Perk Loadout",
+  "menu.blackopsz.perk_loadout.help": "Select a perk below, then click an empty slot to equip. Click occupied slots to unequip.",
+  "menu.blackopsz.perk_loadout.available": "Available Perks",
+  "perk.blackopsz.equipped": "Perk equipped!",
+  "perk.blackopsz.unequipped": "Perk unequipped!",
+  "perk.blackopsz.select_perk": "§eSelect a perk from your inventory list first.",
+  "perk.blackopsz.no_item": "§cYou do not have that perk item anymore.",
+  "perk.blackopsz.empty_slot": "EMPTY SLOT",
+  "perk.blackopsz.empty_slot_tooltip": "Empty perk slot. Select a perk and click to equip.",
+  "perk.blackopsz.selected": "Selected: %s",
+  "perk.blackopsz.no_perks_inventory": "No perk items in inventory.",
+  "perk.blackopsz.tooltip.inventory_count": "In inventory: %s",
+  "perk.blackopsz.tooltip.click_select": "Click to select this perk.",
+  "perk.blackopsz.tooltip.click_unequip": "Click this slot to unequip.",
+  "perk.blackopsz.tooltip.widows.trigger": "Trigger: when hit by melee enemy attacks.",
+  "perk.blackopsz.tooltip.widows.charges": "Charges: %s/%s",
+  "perk.blackopsz.tooltip.widows.regen": "Recharge: 1 charge every %ss",
+  "perk.blackopsz.tooltip.widows.radius": "Trap radius: %s blocks",
+  "perk.blackopsz.tooltip.widows.duration": "Trap duration: %ss",
+  "perk.blackopsz.tooltip.widows.cooldown": "Trigger cooldown: %ss",
+  "perk.blackopsz.hold_item": "§cHold a perk item to equip!",
+  "perk.blackopsz.invalid": "§cNot a valid perk item!",
+  "perk.blackopsz.already_equipped": "§cAlready in a slot!",
+  "perk.blackopsz.widows_wine.equipped": "§aWidow's Wine equipped!",
+  "perk.blackopsz.widows_wine.unequipped": "§cWidow's Wine unequipped!",
+  "perk.blackopsz.widows_wine.entrapped": "§d[Widow's Wine] §fEnemies Entrapped!",
+  "perk.blackopsz.widows_wine.no_charges": "§7[Widow's Wine] No web charges left.",
+  "perk.blackopsz.widows_wine.recharged": "§b[Widow's Wine] Charge restored: %s/%s",
+  "perk.blackopsz.juggernog.plate_online": "§c[Jugger-Nog] Armor plate ready.",
+  "perk.blackopsz.juggernog.last_stand": "§4[Jugger-Nog] Last Stand activated!",
+  "perk.blackopsz.tooltip.jugger.passive": "Passive: +health and sustained resistance.",
+  "perk.blackopsz.tooltip.jugger.plate": "Armor plate: every %ss, lasts %ss.",
+  "perk.blackopsz.tooltip.jugger.last_stand": "Last Stand: %ss boost, %ss cooldown."
+  ,"perk.blackopsz.tooltip.stamin_up": "Run faster and jump better at all times."
+  ,"perk.blackopsz.tooltip.speed_cola": "Faster mining and handling tempo."
+  ,"perk.blackopsz.tooltip.double_tap": "Increased outgoing damage."
+  ,"perk.blackopsz.tooltip.quick_revive": "Emergency self-recovery when low HP."
+  ,"perk.blackopsz.tooltip.deadshot": "Better ranged lethality and precision focus."
+  ,"perk.blackopsz.tooltip.phd_flopper": "Negates fall/explosion self-damage."
+  ,"perk.blackopsz.quick_revive.proc": "§b[Quick Revive] Emergency recovery triggered."
 }
